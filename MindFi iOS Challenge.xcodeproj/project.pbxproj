@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14E4668D27119465006B4655 /* MindFi_iOS_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4668C27119465006B4655 /* MindFi_iOS_ChallengeApp.swift */; };
+		14E4668F27119465006B4655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4668E27119465006B4655 /* ContentView.swift */; };
+		14E4669127119466006B4655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E4669027119466006B4655 /* Assets.xcassets */; };
+		14E4669427119466006B4655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E4669327119466006B4655 /* Preview Assets.xcassets */; };
+		14E4669E27119466006B4655 /* MindFi_iOS_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4669D27119466006B4655 /* MindFi_iOS_ChallengeTests.swift */; };
+		14E466A827119466006B4655 /* MindFi_iOS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E466A727119466006B4655 /* MindFi_iOS_ChallengeUITests.swift */; };
+		14E466AA27119466006B4655 /* MindFi_iOS_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E466A927119466006B4655 /* MindFi_iOS_ChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14E4669A27119466006B4655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E4668127119465006B4655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E4668827119465006B4655;
+			remoteInfo = "MindFi iOS Challenge";
+		};
+		14E466A427119466006B4655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14E4668127119465006B4655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14E4668827119465006B4655;
+			remoteInfo = "MindFi iOS Challenge";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14E4668927119465006B4655 /* MindFi iOS Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MindFi iOS Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E4668C27119465006B4655 /* MindFi_iOS_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFi_iOS_ChallengeApp.swift; sourceTree = "<group>"; };
+		14E4668E27119465006B4655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		14E4669027119466006B4655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14E4669327119466006B4655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		14E4669927119466006B4655 /* MindFi iOS ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MindFi iOS ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E4669D27119466006B4655 /* MindFi_iOS_ChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFi_iOS_ChallengeTests.swift; sourceTree = "<group>"; };
+		14E466A327119466006B4655 /* MindFi iOS ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MindFi iOS ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14E466A727119466006B4655 /* MindFi_iOS_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFi_iOS_ChallengeUITests.swift; sourceTree = "<group>"; };
+		14E466A927119466006B4655 /* MindFi_iOS_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFi_iOS_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14E4668627119465006B4655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E4669627119466006B4655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E466A027119466006B4655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E4668027119465006B4655 = {
+			isa = PBXGroup;
+			children = (
+				14E4668B27119465006B4655 /* MindFi iOS Challenge */,
+				14E4669C27119466006B4655 /* MindFi iOS ChallengeTests */,
+				14E466A627119466006B4655 /* MindFi iOS ChallengeUITests */,
+				14E4668A27119465006B4655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14E4668A27119465006B4655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14E4668927119465006B4655 /* MindFi iOS Challenge.app */,
+				14E4669927119466006B4655 /* MindFi iOS ChallengeTests.xctest */,
+				14E466A327119466006B4655 /* MindFi iOS ChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14E4668B27119465006B4655 /* MindFi iOS Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				14E4668C27119465006B4655 /* MindFi_iOS_ChallengeApp.swift */,
+				14E4668E27119465006B4655 /* ContentView.swift */,
+				14E4669027119466006B4655 /* Assets.xcassets */,
+				14E4669227119466006B4655 /* Preview Content */,
+			);
+			path = "MindFi iOS Challenge";
+			sourceTree = "<group>";
+		};
+		14E4669227119466006B4655 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				14E4669327119466006B4655 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14E4669C27119466006B4655 /* MindFi iOS ChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				14E4669D27119466006B4655 /* MindFi_iOS_ChallengeTests.swift */,
+			);
+			path = "MindFi iOS ChallengeTests";
+			sourceTree = "<group>";
+		};
+		14E466A627119466006B4655 /* MindFi iOS ChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14E466A727119466006B4655 /* MindFi_iOS_ChallengeUITests.swift */,
+				14E466A927119466006B4655 /* MindFi_iOS_ChallengeUITestsLaunchTests.swift */,
+			);
+			path = "MindFi iOS ChallengeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14E4668827119465006B4655 /* MindFi iOS Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E466AD27119466006B4655 /* Build configuration list for PBXNativeTarget "MindFi iOS Challenge" */;
+			buildPhases = (
+				14E4668527119465006B4655 /* Sources */,
+				14E4668627119465006B4655 /* Frameworks */,
+				14E4668727119465006B4655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MindFi iOS Challenge";
+			productName = "MindFi iOS Challenge";
+			productReference = 14E4668927119465006B4655 /* MindFi iOS Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14E4669827119466006B4655 /* MindFi iOS ChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E466B027119466006B4655 /* Build configuration list for PBXNativeTarget "MindFi iOS ChallengeTests" */;
+			buildPhases = (
+				14E4669527119466006B4655 /* Sources */,
+				14E4669627119466006B4655 /* Frameworks */,
+				14E4669727119466006B4655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E4669B27119466006B4655 /* PBXTargetDependency */,
+			);
+			name = "MindFi iOS ChallengeTests";
+			productName = "MindFi iOS ChallengeTests";
+			productReference = 14E4669927119466006B4655 /* MindFi iOS ChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14E466A227119466006B4655 /* MindFi iOS ChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14E466B327119466006B4655 /* Build configuration list for PBXNativeTarget "MindFi iOS ChallengeUITests" */;
+			buildPhases = (
+				14E4669F27119466006B4655 /* Sources */,
+				14E466A027119466006B4655 /* Frameworks */,
+				14E466A127119466006B4655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14E466A527119466006B4655 /* PBXTargetDependency */,
+			);
+			name = "MindFi iOS ChallengeUITests";
+			productName = "MindFi iOS ChallengeUITests";
+			productReference = 14E466A327119466006B4655 /* MindFi iOS ChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14E4668127119465006B4655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					14E4668827119465006B4655 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					14E4669827119466006B4655 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 14E4668827119465006B4655;
+					};
+					14E466A227119466006B4655 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 14E4668827119465006B4655;
+					};
+				};
+			};
+			buildConfigurationList = 14E4668427119465006B4655 /* Build configuration list for PBXProject "MindFi iOS Challenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14E4668027119465006B4655;
+			productRefGroup = 14E4668A27119465006B4655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14E4668827119465006B4655 /* MindFi iOS Challenge */,
+				14E4669827119466006B4655 /* MindFi iOS ChallengeTests */,
+				14E466A227119466006B4655 /* MindFi iOS ChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14E4668727119465006B4655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E4669427119466006B4655 /* Preview Assets.xcassets in Resources */,
+				14E4669127119466006B4655 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E4669727119466006B4655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E466A127119466006B4655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E4668527119465006B4655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E4668F27119465006B4655 /* ContentView.swift in Sources */,
+				14E4668D27119465006B4655 /* MindFi_iOS_ChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E4669527119466006B4655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E4669E27119466006B4655 /* MindFi_iOS_ChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14E4669F27119466006B4655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14E466A827119466006B4655 /* MindFi_iOS_ChallengeUITests.swift in Sources */,
+				14E466AA27119466006B4655 /* MindFi_iOS_ChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14E4669B27119466006B4655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E4668827119465006B4655 /* MindFi iOS Challenge */;
+			targetProxy = 14E4669A27119466006B4655 /* PBXContainerItemProxy */;
+		};
+		14E466A527119466006B4655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14E4668827119465006B4655 /* MindFi iOS Challenge */;
+			targetProxy = 14E466A427119466006B4655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14E466AB27119466006B4655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14E466AC27119466006B4655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14E466AE27119466006B4655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindFi iOS Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUU7LDLHZ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zack.MindFi-iOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14E466AF27119466006B4655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindFi iOS Challenge/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUU7LDLHZ5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zack.MindFi-iOS-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		14E466B127119466006B4655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUU7LDLHZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zack.MindFi-iOS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindFi iOS Challenge.app/MindFi iOS Challenge";
+			};
+			name = Debug;
+		};
+		14E466B227119466006B4655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUU7LDLHZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zack.MindFi-iOS-ChallengeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindFi iOS Challenge.app/MindFi iOS Challenge";
+			};
+			name = Release;
+		};
+		14E466B427119466006B4655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUU7LDLHZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zack.MindFi-iOS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MindFi iOS Challenge";
+			};
+			name = Debug;
+		};
+		14E466B527119466006B4655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUU7LDLHZ5;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zack.MindFi-iOS-ChallengeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "MindFi iOS Challenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14E4668427119465006B4655 /* Build configuration list for PBXProject "MindFi iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E466AB27119466006B4655 /* Debug */,
+				14E466AC27119466006B4655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E466AD27119466006B4655 /* Build configuration list for PBXNativeTarget "MindFi iOS Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E466AE27119466006B4655 /* Debug */,
+				14E466AF27119466006B4655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E466B027119466006B4655 /* Build configuration list for PBXNativeTarget "MindFi iOS ChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E466B127119466006B4655 /* Debug */,
+				14E466B227119466006B4655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14E466B327119466006B4655 /* Build configuration list for PBXNativeTarget "MindFi iOS ChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14E466B427119466006B4655 /* Debug */,
+				14E466B527119466006B4655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14E4668127119465006B4655 /* Project object */;
+}
