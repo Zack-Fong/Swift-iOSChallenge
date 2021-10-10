@@ -15,9 +15,7 @@ struct MentorsListScreen: View {
     var body: some View {
         NavigationView {
             List(mentorsListViewModel.mentorsList) { mentor in
-                NavigationLink(destination: MentorScreen(username: mentor.username), isActive: $isActive) {
-                    MentorRow(mentor: mentor)
-                }
+                MentorRow(mentor: mentor)
             }.navigationBarTitle(!isActive ?  Text("\(mentorsListViewModel.mentorsList.count) Mentors"):Text("Mentors")).foregroundColor(Color.black)
         }
     }

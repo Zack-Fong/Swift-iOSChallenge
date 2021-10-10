@@ -71,6 +71,6 @@ struct MentorScreen: View {
 
 struct MentorScreen_Previews: PreviewProvider {
     static var previews: some View {
-        MentorScreen(username: "")
+        MentorScreen(username: "macournoyer")
     }
 }
