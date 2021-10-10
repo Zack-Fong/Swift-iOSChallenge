@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		149E669027129A7D00970B1F /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E668F27129A7D00970B1F /* Mentor.swift */; };
+		149E66922712A00C00970B1F /* MentorsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E66912712A00C00970B1F /* MentorsListViewModel.swift */; };
+		149E669B2712ABE600970B1F /* Github.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E669A2712ABE600970B1F /* Github.swift */; };
+		149E669F2712ACCD00970B1F /* GetUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E669E2712ACCD00970B1F /* GetUsers.swift */; };
+		149E66A22712AE0700970B1F /* GetAllMentorsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E66A12712AE0700970B1F /* GetAllMentorsResponse.swift */; };
+		149E66A42712BB9D00970B1F /* MentorRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E66A32712BB9D00970B1F /* MentorRow.swift */; };
+		149E66A62712D6E800970B1F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E66A52712D6E800970B1F /* ImageLoader.swift */; };
+		149E66A82712DC5500970B1F /* ImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E66A72712DC5500970B1F /* ImageViewer.swift */; };
+		149E66AA2712DECB00970B1F /* GetUserDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E66A92712DECB00970B1F /* GetUserDetail.swift */; };
+		149E66AC2712E0AE00970B1F /* MentorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149E66AB2712E0AE00970B1F /* MentorViewModel.swift */; };
 		14E4668D27119465006B4655 /* MindFi_iOS_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4668C27119465006B4655 /* MindFi_iOS_ChallengeApp.swift */; };
-		14E4668F27119465006B4655 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4668E27119465006B4655 /* ContentView.swift */; };
 		14E4669127119466006B4655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E4669027119466006B4655 /* Assets.xcassets */; };
 		14E4669427119466006B4655 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E4669327119466006B4655 /* Preview Assets.xcassets */; };
 		14E4669E27119466006B4655 /* MindFi_iOS_ChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E4669D27119466006B4655 /* MindFi_iOS_ChallengeTests.swift */; };
 		14E466A827119466006B4655 /* MindFi_iOS_ChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E466A727119466006B4655 /* MindFi_iOS_ChallengeUITests.swift */; };
 		14E466AA27119466006B4655 /* MindFi_iOS_ChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E466A927119466006B4655 /* MindFi_iOS_ChallengeUITestsLaunchTests.swift */; };
+		14E466B92711C217006B4655 /* MentorsListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E466B82711C217006B4655 /* MentorsListScreen.swift */; };
+		14E466BB2711C2C6006B4655 /* MentorScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E466BA2711C2C6006B4655 /* MentorScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		149E668F27129A7D00970B1F /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
+		149E66912712A00C00970B1F /* MentorsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorsListViewModel.swift; sourceTree = "<group>"; };
+		149E669A2712ABE600970B1F /* Github.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Github.swift; sourceTree = "<group>"; };
+		149E669E2712ACCD00970B1F /* GetUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUsers.swift; sourceTree = "<group>"; };
+		149E66A12712AE0700970B1F /* GetAllMentorsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllMentorsResponse.swift; sourceTree = "<group>"; };
+		149E66A32712BB9D00970B1F /* MentorRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorRow.swift; sourceTree = "<group>"; };
+		149E66A52712D6E800970B1F /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		149E66A72712DC5500970B1F /* ImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewer.swift; sourceTree = "<group>"; };
+		149E66A92712DECB00970B1F /* GetUserDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserDetail.swift; sourceTree = "<group>"; };
+		149E66AB2712E0AE00970B1F /* MentorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorViewModel.swift; sourceTree = "<group>"; };
 		14E4668927119465006B4655 /* MindFi iOS Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MindFi iOS Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E4668C27119465006B4655 /* MindFi_iOS_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFi_iOS_ChallengeApp.swift; sourceTree = "<group>"; };
-		14E4668E27119465006B4655 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		14E4669027119466006B4655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14E4669327119466006B4655 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14E4669927119466006B4655 /* MindFi iOS ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MindFi iOS ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +64,8 @@
 		14E466A327119466006B4655 /* MindFi iOS ChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MindFi iOS ChallengeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14E466A727119466006B4655 /* MindFi_iOS_ChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFi_iOS_ChallengeUITests.swift; sourceTree = "<group>"; };
 		14E466A927119466006B4655 /* MindFi_iOS_ChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindFi_iOS_ChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14E466B82711C217006B4655 /* MentorsListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorsListScreen.swift; sourceTree = "<group>"; };
+		14E466BA2711C2C6006B4655 /* MentorScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		149E668B27129A1B00970B1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				149E668F27129A7D00970B1F /* Mentor.swift */,
+				149E66A12712AE0700970B1F /* GetAllMentorsResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		149E668C27129A2C00970B1F /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				149E66A52712D6E800970B1F /* ImageLoader.swift */,
+				149E66912712A00C00970B1F /* MentorsListViewModel.swift */,
+				149E66AB2712E0AE00970B1F /* MentorViewModel.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+		149E668D27129A3900970B1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				149E668E27129A5A00970B1F /* components */,
+				14E466B72711C1E0006B4655 /* screens */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		149E668E27129A5A00970B1F /* components */ = {
+			isa = PBXGroup;
+			children = (
+				149E66A32712BB9D00970B1F /* MentorRow.swift */,
+				149E66A72712DC5500970B1F /* ImageViewer.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		149E66932712A12700970B1F /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				149E66982712AB6800970B1F /* GitHub */,
+			);
+			path = Networks;
+			sourceTree = "<group>";
+		};
+		149E66982712AB6800970B1F /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				149E66992712ABBE00970B1F /* Users */,
+				149E669A2712ABE600970B1F /* Github.swift */,
+			);
+			path = GitHub;
+			sourceTree = "<group>";
+		};
+		149E66992712ABBE00970B1F /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				149E669E2712ACCD00970B1F /* GetUsers.swift */,
+				149E66A92712DECB00970B1F /* GetUserDetail.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
 		14E4668027119465006B4655 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +179,11 @@
 		14E4668B27119465006B4655 /* MindFi iOS Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				149E66932712A12700970B1F /* Networks */,
+				149E668D27129A3900970B1F /* View */,
+				149E668C27129A2C00970B1F /* ModelView */,
+				149E668B27129A1B00970B1F /* Model */,
 				14E4668C27119465006B4655 /* MindFi_iOS_ChallengeApp.swift */,
-				14E4668E27119465006B4655 /* ContentView.swift */,
 				14E4669027119466006B4655 /* Assets.xcassets */,
 				14E4669227119466006B4655 /* Preview Content */,
 			);
@@ -125,6 +213,15 @@
 				14E466A927119466006B4655 /* MindFi_iOS_ChallengeUITestsLaunchTests.swift */,
 			);
 			path = "MindFi iOS ChallengeUITests";
+			sourceTree = "<group>";
+		};
+		14E466B72711C1E0006B4655 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				14E466B82711C217006B4655 /* MentorsListScreen.swift */,
+				14E466BA2711C2C6006B4655 /* MentorScreen.swift */,
+			);
+			path = screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +354,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14E4668F27119465006B4655 /* ContentView.swift in Sources */,
+				149E669027129A7D00970B1F /* Mentor.swift in Sources */,
 				14E4668D27119465006B4655 /* MindFi_iOS_ChallengeApp.swift in Sources */,
+				149E66A62712D6E800970B1F /* ImageLoader.swift in Sources */,
+				149E66A82712DC5500970B1F /* ImageViewer.swift in Sources */,
+				149E66922712A00C00970B1F /* MentorsListViewModel.swift in Sources */,
+				149E669F2712ACCD00970B1F /* GetUsers.swift in Sources */,
+				14E466BB2711C2C6006B4655 /* MentorScreen.swift in Sources */,
+				149E66A42712BB9D00970B1F /* MentorRow.swift in Sources */,
+				149E66AC2712E0AE00970B1F /* MentorViewModel.swift in Sources */,
+				149E66AA2712DECB00970B1F /* GetUserDetail.swift in Sources */,
+				149E669B2712ABE600970B1F /* Github.swift in Sources */,
+				14E466B92711C217006B4655 /* MentorsListScreen.swift in Sources */,
+				149E66A22712AE0700970B1F /* GetAllMentorsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,7 +541,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "zack.MindFi-iOS-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zack.MindFi-iOS-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -463,7 +571,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "zack.MindFi-iOS-Challenge";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zack.MindFi-iOS-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

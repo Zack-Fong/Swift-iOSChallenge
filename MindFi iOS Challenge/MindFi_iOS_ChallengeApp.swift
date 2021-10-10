@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct MindFi_iOS_ChallengeApp: App {
+    @Environment(\.scenePhase) private var phase
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MentorsListScreen().preferredColorScheme(.light)
         }
+        .onChange(of: phase) { _ in
+            let window = UIApplication.shared.windows.first
+            window?.overrideUserInterfaceStyle = .light
+       }
     }
 }
