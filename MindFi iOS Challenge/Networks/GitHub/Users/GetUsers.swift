@@ -15,7 +15,7 @@ extension GitHub {
             return
         }
         
-        let username = "Zack-Fong"
+        /*let username = "Zack-Fong"
         let password = "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"
         let loginString = "\(username):\(password)"
 
@@ -23,11 +23,11 @@ extension GitHub {
             print("Invalid Login String!");
             return
         }
-        let base64LoginString = loginData.base64EncodedString()
+        let base64LoginString = loginData.base64EncodedString()*/
         
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-        request.setValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
+        //request.setValue("Basic \(base64LoginString)", forHTTPHeaderField: "Authorization")
         request.timeoutInterval = 60
         
         URLSession.shared.dataTask(with: request) { (data, response, error) in
